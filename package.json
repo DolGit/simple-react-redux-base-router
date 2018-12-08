@@ -1,6 +1,6 @@
 {
   "name": "@dolnpm/simple-react-redux-base-router",
-  "version": "0.0.0-development",
+  "version": "0.1.1-development",
   "description": "Minimal code component for connecting React-Router and Redux with redirects. Very simple, very basic, its open sourced to avoid rewriting the code across multiple projects.",
   "main": "lib/index.js",
   "module": "es/index.js",
