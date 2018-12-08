@@ -1,7 +1,7 @@
 {
   "name": "@dolnpm/simple-react-redux-base-router",
-  "version": "1.0.0",
-  "description": "@dolnpm/simple-react-redux-base-router React component",
+  "version": "0.0.0-development",
+  "description": "Minimal code component for connecting React-Router and Redux with redirects. Very simple, very basic, its open sourced to avoid rewriting the code across multiple projects.",
   "main": "lib/index.js",
   "module": "es/index.js",
   "files": [
@@ -17,21 +17,47 @@
     "start": "nwb serve-react-demo",
     "test": "nwb test-react",
     "test:coverage": "nwb test-react --coverage",
-    "test:watch": "nwb test-react --server"
+    "test:watch": "nwb test-react --server",
+    "semantic-release": "semantic-release",
+    "travis-deploy-once": "travis-deploy-once"
   },
-  "dependencies": {},
+  "dependencies": {
+    "connected-react-router": "^4.5.0",
+    "react": "16.6.3",
+    "react-dom": "16.6.3",
+    "react-redux": "^5.1.0",
+    "react-router-dom": "4.3.1",
+    "redux": "^4.0.1",
+    "semantic-release": "^15.12.4",
+    "travis-deploy-once": "^5.0.9"
+  },
   "peerDependencies": {
-    "react": "16.x"
+    "connected-react-router": "^4.5.0",
+    "prop-types": "^15.5.0",
+    "react": "^16.2.0",
+    "react-dom": "^16.2.0",
+    "react-redux": "^5.1.0"
   },
   "devDependencies": {
+    "connected-react-router": "^4.5.0",
     "nwb": "0.23.x",
     "react": "16.6.3",
-    "react-dom": "16.6.3"
+    "react-dom": "16.6.3",
+    "react-redux": "^5.1.0",
+    "redux": "^4.0.1",
+    "semantic-release": "^15.12.4",
+    "travis-deploy-once": "^5.0.9"
   },
-  "author": "",
-  "homepage": "",
+  "author": "DolNpm <dolgitnpm@gmail.com> (https://github.com/DolGit/)",
   "license": "MIT",
-  "repository": "",
+  "bugs": {
+    "url": "https://github.com/DolGit/simple-react-redux-base-router/issues"
+  },
+  "homepage": "https://github.com/DolGit/simple-react-redux-base-router#readme",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/DolGit/simple-react-redux-base-router.git"
+  },
   "keywords": [
     "react-component"
   ]

@@ -1,16 +1,2 @@
-# @dolnpm/simple-react-redux-base-router
-
-[![Travis][build-badge]][build]
-[![npm package][npm-badge]][npm]
-[![Coveralls][coveralls-badge]][coveralls]
-
-Describe @dolnpm/simple-react-redux-base-router here.
-
-[build-badge]: https://img.shields.io/travis/user/repo/master.png?style=flat-square
-[build]: https://travis-ci.org/user/repo
-
-[npm-badge]: https://img.shields.io/npm/v/npm-package.png?style=flat-square
-[npm]: https://www.npmjs.org/package/npm-package
-
-[coveralls-badge]: https://img.shields.io/coveralls/user/repo/master.png?style=flat-square
-[coveralls]: https://coveralls.io/github/user/repo
+# simple-react-redux-base-router
+Minimal code component for connecting React-Router and Redux with redirects. Very simple, very basic, its open sourced to avoid rewriting the code across multiple projects, or pages.
